@@ -1,0 +1,39 @@
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+*.old
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers d'IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+
+# Node.js
+node_modules/
+
+# Docker volumes et fichiers massifs (NE PAS PUSH)
+shared_volume/
+hdfs/
+tmp/
+logs/
+
+# Fichiers compressés
+*.tar
+*.tar.gz
+*.zip
+*.gz
+
+# Token ou secrets
+*.env
+*.pem
+*.key
+
+# Captures d’écran (si très lourdes → optionnel)
+screenshots/*.bmp
